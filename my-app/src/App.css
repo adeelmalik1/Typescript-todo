@@ -60,10 +60,25 @@ button:hover {
 }
 
 ul {
-  width:22rem ;
+  width:24rem ;
   margin-left: 2rem;
 }
 
 li{
-  display: flex
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.btn{
+  display: flex;
+justify-content: space-between;
+width: 8rem;
+}
+#btn-1 {
+ padding: 5px;
+ cursor: pointer;
+}
+#btn-2 {
+  padding: 5px;
+  cursor: pointer;
+ }
