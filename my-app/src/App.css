@@ -13,7 +13,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 35%;
   margin: 144px auto;
 }
 .main span{
@@ -27,12 +27,14 @@ body{
 .todo-form {
   background-color: aqua;
   padding: 2rem;
+  width: 75%;
 
 }
 input{
   padding: 10px 50px;
   border-style: none;
   border-radius: 44px;
+  width: 45%;
 }
 .input-field {
   padding:9px;
@@ -50,8 +52,8 @@ button:hover {
   transition: 1s ease-out;
 }
 .list-container{
-  background-color: aqua;
-  width: 27.9rem;
+  margin-top: 1rem;
+  width: 80%;
   height: 18rem;
   overflow: hidden;
   overflow-y: scroll;
@@ -60,7 +62,7 @@ button:hover {
 }
 
 ul {
-  width:24rem ;
+  width:88% ;
   margin-left: 2rem;
 }
 
@@ -77,8 +79,12 @@ width: 8rem;
 #btn-1 {
  padding: 5px;
  cursor: pointer;
+ background: aqua;
+border-radius: 13px;
 }
 #btn-2 {
   padding: 5px;
   cursor: pointer;
+  background: aqua;
+border-radius: 13px;
  }
